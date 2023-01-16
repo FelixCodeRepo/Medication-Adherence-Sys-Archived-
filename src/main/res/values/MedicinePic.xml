@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Medicine_Picture">
+        <item>@drawable/advil</item>
+        <item>@drawable/bekool</item>
+        <item>@drawable/benefiber</item>
+        <item>@drawable/culturelle</item>
+        <item>@drawable/dulcolax</item>
+        <item>@drawable/imodium</item>
+        <item>@drawable/motrin</item>
+        <item>@drawable/pepto</item>
+        <item>@drawable/senokot</item>
+        <item>@drawable/tums</item>
+        <item>@drawable/tylenol</item>
+        <item>@drawable/zantac</item>
+    </array>
+
+</resources>

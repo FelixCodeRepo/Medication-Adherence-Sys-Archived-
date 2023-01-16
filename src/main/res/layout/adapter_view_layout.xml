@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_weight="50"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewID1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:gravity="center"
+            android:text="TextView1"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/MedPicView"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+
+            app:srcCompat="@android:color/background_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_weight="50"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewID2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="TextView2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewID3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textViewID2"
+            android:gravity="center"
+            android:text="TextView3" />
+
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="33dp"
+            android:background="@drawable/button_gradient"
+            android:gravity="center"
+            android:lineSpacingExtra="34sp"
+            android:paddingTop="10.5dp"
+            android:paddingBottom="10.5dp"
+            android:text="ADD"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>
